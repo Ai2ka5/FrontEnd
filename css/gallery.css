@@ -1,0 +1,119 @@
+.gallery {
+    display: flex;
+    flex: wrap;
+}
+
+.bg {
+    width: 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.layer {
+    position: relative;
+    padding-top: 100%;
+}
+
+.text-content {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    font-size: 1.3rem;
+    color: var(--white);
+    text-shadow: 2px 3px 5px #000;
+    text-transform: uppercase;
+}
+
+.text-content h2 {
+    transition: 400ms;
+    font-weight: 400;
+}
+
+.text-content p {
+    visibility: hidden;
+    padding: 0 20px;
+    font-size: 1rem;
+}
+
+.bg:hover .layer {
+    background: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0),
+        rgba(138, 143, 155, 0.75));
+}
+
+.bg:hover .text-content p {
+    visibility: visible;
+}
+
+.bg:hover .text-content h2 {
+    transform: translateY(-20px);
+}
+
+.bg-1 {
+    background-image: url(img/1single_life.jpeg);
+}
+
+.bg-2 {
+    background-image: url(img/2solo_travel.jpeg);
+}
+
+.bg-3 {
+    background-image: url(img/3knowledge.jpeg);
+}
+
+.bg-4 {
+    background-image: url(img/4snowboarding.jpeg);
+}
+
+.bg-5 {
+    background-image: url(img/5nightclub.jpeg);
+}
+
+.bg-6 {
+    background-image: url(img/6making_friend.jpeg);
+}
+
+.bg-7 {
+    background-image: url(img/7kiteboarding.jpeg);
+}
+
+.bg-8 {
+    background-image: url(img/8friends.jpeg);
+}
+
+.bg-9 {
+    background-image: url(img/9better_life.jpeg);
+}
+
+.bg-10 {
+    background-image: url(img/10love.jpeg);
+}
+
+.bg-11 {
+    background-image: url(img/11wedding.jpeg);
+}
+
+.bg-12 {
+    background-image: url(img/12baby.jpeg);
+}
+
+.bg-13 {
+    background-image: url(img/13family_sport.jpeg);
+}
+
+.bg-14 {
+    background-image: url(img/14family_travel.jpeg);
+}
+
+.bg-15 {
+    background-image: url(img/15happy_family.jpeg);
+}
+
+.bg-16 {
+    background-image: url(img/8long_road.jpeg);
+}

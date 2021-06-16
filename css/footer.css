@@ -1,0 +1,35 @@
+footer {
+    text-align: center;
+    background-color: skyblue;
+}
+
+.social-container {
+    padding: 50px, 20px, 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-link {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    margin: 0 10px;
+    color: black;
+}
+
+.social-link:hover {
+    background-color: black;
+    color: white;
+}
+
+.copyright-container {
+    background-color: steelblue;
+    padding: 30px;
+    font-size: 1.2rem;
+}
+
+.design {
+    color: black;
+    text-decoration: none;
+}

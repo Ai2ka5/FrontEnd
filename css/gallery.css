@@ -8,6 +8,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    min-width: 25%;
+    min-height: 25%;
+
 }
 
 .layer {

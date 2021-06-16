@@ -46,16 +46,16 @@ nav {
 
 .links-container > .link-container > .link {
     text-decoration: none;
-    color: var(--black);
+    color: black;
 }
 
 .links-container > .link-container:first-child {
-    background-color: var(--blue);
+    background-color: lightblue;
 }
 
 .links-container > .link-container:first-child > .link,
 .links-container > .link-container:hover > .link {
-    color: var(--white);
+    color: white;
 }
 
 .links-container > .link-container:nth-child(2):hover {

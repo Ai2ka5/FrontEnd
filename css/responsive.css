@@ -1,20 +1,12 @@
 /* TABLET VIEW*/
 @media screen and (max-width: 1000px) {
-    /*body {
-    max-width: 550px;
-    height: auto;
-    }*/
-    .logo-container {
 
-    }
 
 }
 
+
 /* MOBILE VIEW*/
 @media screen and (max-width: 550px) {
-    /*body {
-    max-width: 480px;
-    height: auto;
-    }*/
+
 
 }
